@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(18, 179, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100hv;
+
+}
+.container{
+    position: relative;
+    background-color: #fff;
+    width: 1000%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 10px;
+    border-radius: 250px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0,0.1);
+}
+.container .left-side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    border-radius: 1px 120px;
+}
+.container .right-side{
+    position: relative;
+    
+    padding: 40px;
+}
+.perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.perfil .imgbox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.perfil .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.perfil h2{
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.perfil h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+
+}
+.contatoInfo{
+    padding-top: 40px;
+}
+.contatoInfo ul{
+    position: relative;
+}
+.contatoInfo ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contatoInfo ul li .icone{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4 ;
+}
+.contatoInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.titulo{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.contatoInfo.Formação li{
+    margin-bottom: 15px;
+}
+.contatoInfo.Formação h4{
+    color: #03a9f4;
+    font-weight: 500;
+    cursor: pointer;
+}
+.contatoInfo.Formação h5{
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.contatoInfo.Formação h6{
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+}
+.contatoInfo.Idioma .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: black;
+    display: block;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.contatoInfo.Idioma .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.Sobre{
+    margin-bottom: 50px;
+    
+}
+.Sobre:last-child{
+    margin-bottom: 0;
+}
+.titulo2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border-radius: 250px;
+    
+}
+p{
+    background: #003147;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px 45px;
+    
+}
+.redes-sociais ul li{
+    margin-top: 22px;
+    list-style: none;
+    
+}
+.redes-sociais ul li i{
+    margin-top: 50px;
+    font-size: 20px;
+    
+    
+    
+    
+    
+}
+.redes-sociais ul li  button{
+    background: #03a9f4;
+    padding: 5px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 15px;
+    box-shadow: #03a9f4;
+    
+    
+    
+    
+}
+.redes-sociais ul li a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: cursive;
+    
+}
+.redes-sociais button:hover{
+    background: #fff;
+    outline-style: groove;
+    outline-color:#03a9f4;
+    outline-width: 3px;
+    
+}
+.container::shadow{
+    background: #003147;
+    
+}
+.texto a:hover{
+    color: #03a9f4;
+}
+.texto a{
+    color: antiquewhite;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
